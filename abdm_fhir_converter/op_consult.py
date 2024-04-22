@@ -9,7 +9,7 @@ from fhir.resources.codeableconcept import CodeableConcept
 from fhir.resources.encounter import Encounter
 from fhir.resources.reference import Reference
 
-from fhir_converter.common import get_patient_construct, get_practitioner_construct
+from abdm_fhir_converter.common import get_patient_construct, get_practitioner_construct
 
 
 def create_section(title, code, display, text):
