@@ -23,7 +23,7 @@ For more information on ABDM FHIR profiles, visit the [ABDM FHIR Implementation 
 ## Installation
 
 ```bash
-pip install git+https://github.com/satyadeep-ih/fhir-converter   
+pip install git+https://github.com/satyadeep-ih/abdm-fhir-converter   
 ```
 
 ## Usage Examples
