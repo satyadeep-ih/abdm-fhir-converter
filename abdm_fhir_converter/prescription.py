@@ -8,7 +8,7 @@ from fhir.resources.composition import Composition
 from fhir.resources.medicationrequest import MedicationRequest
 from fhir.resources.reference import Reference
 
-from fhir_converter.common import get_patient_construct, create_section, get_practitioner_construct
+from abdm_fhir_converter.common import get_patient_construct, create_section, get_practitioner_construct
 
 
 def create_prescription(input_json: dict):
