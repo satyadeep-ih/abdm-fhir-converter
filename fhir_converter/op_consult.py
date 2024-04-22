@@ -103,6 +103,19 @@ def create_opconsult_record(input_json):
 
     bundle = Bundle.construct()
     bundle.type = "collection"
+    bundle.meta= """ lastUpdated": "2024-01-11T11:47:32+05:30",
+     "versionId": "1",
+     "security": [
+        {
+           "system": "http://terminology.hl7.org/CodeSystem/v3-Confidentiality",
+           "code": "V",
+           "display": "very restricted"
+        }
+     ],
+     "profile": [
+        "https://nrces.in/ndhm/fhir/r4/StructureDefinition/DocumentBundle"
+     ]"""
+    
     bundle.entry = [
         BundleEntry.construct(fullUrl=f"urn:uuid:{composition.id}", resource=composition)
     ]
